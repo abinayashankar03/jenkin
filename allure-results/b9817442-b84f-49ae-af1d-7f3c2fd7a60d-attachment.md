@@ -1,0 +1,239 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link "Fork me on GitHub":
+      - /url: https://github.com/tourdedave/the-internet
+      - img "Fork me on GitHub" [ref=e5]
+    - generic [ref=e7]:
+      - heading "File Downloader" [level=3] [ref=e8]
+      - link "file.txt" [ref=e9]:
+        - /url: download/file.txt
+      - link "Image.PNG" [ref=e10]:
+        - /url: download/Image.PNG
+      - link "some-file.txt" [ref=e11]:
+        - /url: download/some-file.txt
+      - link "speech-translation.conf" [ref=e12]:
+        - /url: download/speech-translation.conf
+      - link "test-upload-1774859912061-1.txt" [ref=e13]:
+        - /url: download/test-upload-1774859912061-1.txt
+      - link "sm.jpg" [ref=e14]:
+        - /url: download/sm.jpg
+      - link "upload.txt" [ref=e15]:
+        - /url: download/upload.txt
+      - link "Jpeg_with_exif.jpeg" [ref=e16]:
+        - /url: download/Jpeg_with_exif.jpeg
+      - link "app_liveBug.jpg" [ref=e17]:
+        - /url: download/app_liveBug.jpg
+      - link "README.md" [ref=e18]:
+        - /url: download/README.md
+      - link "image.jpg" [ref=e19]:
+        - /url: download/image.jpg
+      - link "sample-zip-file.zip" [ref=e20]:
+        - /url: download/sample-zip-file.zip
+      - link "common.robot" [ref=e21]:
+        - /url: download/common.robot
+      - link "Screenshot 2023-12-27 133459.png" [ref=e22]:
+        - /url: download/Screenshot 2023-12-27 133459.png
+      - link "John Doe Test update.docx" [ref=e23]:
+        - /url: download/John Doe Test update.docx
+      - link "wait.robot" [ref=e24]:
+        - /url: download/wait.robot
+      - link "abc.txt" [ref=e25]:
+        - /url: download/abc.txt
+      - link "test-upload-1774847967373-1.txt" [ref=e26]:
+        - /url: download/test-upload-1774847967373-1.txt
+      - link "sampleFile.txt" [ref=e27]:
+        - /url: download/sampleFile.txt
+      - link "Cypress_Training_Updated.pptx" [ref=e28]:
+        - /url: download/Cypress_Training_Updated.pptx
+      - link "test-upload-1774849127707-1.txt" [ref=e29]:
+        - /url: download/test-upload-1774849127707-1.txt
+      - link "upload.png" [ref=e30]:
+        - /url: download/upload.png
+      - link "selenide-lambdatest.3085184459699808707.temp.txt" [ref=e31]:
+        - /url: download/selenide-lambdatest.3085184459699808707.temp.txt
+      - link "Test.txt" [ref=e32]:
+        - /url: download/Test.txt
+      - link "zero_bytes_file.txt" [ref=e33]:
+        - /url: download/zero_bytes_file.txt
+      - link "test-upload-1774853619015-1.txt" [ref=e34]:
+        - /url: download/test-upload-1774853619015-1.txt
+      - link "file_1774870280646.pdf" [ref=e35]:
+        - /url: download/file_1774870280646.pdf
+      - link "1st year.pdf" [ref=e36]:
+        - /url: download/1st year.pdf
+      - link "targetScreenshot (3).png" [ref=e37]:
+        - /url: download/targetScreenshot (3).png
+      - link "file.json" [ref=e38]:
+        - /url: download/file.json
+      - link "TestData.xlsx" [ref=e39]:
+        - /url: download/TestData.xlsx
+      - link "7d2c5299e08a3426d5a9d62cfd8d285a1c7cb0d7 Build report.pdf" [ref=e40]:
+        - /url: download/7d2c5299e08a3426d5a9d62cfd8d285a1c7cb0d7 Build report.pdf
+      - link "file_1774870508909.pdf" [ref=e41]:
+        - /url: download/file_1774870508909.pdf
+      - link "testUpload.json" [ref=e42]:
+        - /url: download/testUpload.json
+      - link "Excel.xlsx" [ref=e43]:
+        - /url: download/Excel.xlsx
+      - link "test_data.txt" [ref=e44]:
+        - /url: download/test_data.txt
+      - link "Screenshot 2025-06-06 031253.png" [ref=e45]:
+        - /url: download/Screenshot 2025-06-06 031253.png
+      - link "large-file.txt" [ref=e46]:
+        - /url: download/large-file.txt
+      - link "sample_upload.txt" [ref=e47]:
+        - /url: download/sample_upload.txt
+      - link "test-upload-1774857710282-1.txt" [ref=e48]:
+        - /url: download/test-upload-1774857710282-1.txt
+      - link "selenium-screenshot-3.png" [ref=e49]:
+        - /url: download/selenium-screenshot-3.png
+      - link "test-upload-1774858077533-1.txt" [ref=e50]:
+        - /url: download/test-upload-1774858077533-1.txt
+      - link "test-upload-1774854935043-1.txt" [ref=e51]:
+        - /url: download/test-upload-1774854935043-1.txt
+      - link "webdriverIO.png" [ref=e52]:
+        - /url: download/webdriverIO.png
+      - link "test_upload_file.txt" [ref=e53]:
+        - /url: download/test_upload_file.txt
+      - link "Test.png" [ref=e54]:
+        - /url: download/Test.png
+      - link "IMG-20260128-WA0001.jpg" [ref=e55]:
+        - /url: download/IMG-20260128-WA0001.jpg
+      - link "test-upload.txt" [ref=e56]:
+        - /url: download/test-upload.txt
+      - link "tmpnagvy437.txt" [ref=e57]:
+        - /url: download/tmpnagvy437.txt
+      - link "DaBaiCai_d24_v6.0_2601_Online.exe" [ref=e58]:
+        - /url: download/DaBaiCai_d24_v6.0_2601_Online.exe
+      - link "test-upload-1774849097716-1.txt" [ref=e59]:
+        - /url: download/test-upload-1774849097716-1.txt
+      - link "file_1774870435349.pdf" [ref=e60]:
+        - /url: download/file_1774870435349.pdf
+      - link "Marvel2-daredevil-punisher-guardians-of-the-galaxy-marvel-s-future-will-the-marvel-universe-be-too-big-after-avengers-age-of-ultron.webp" [ref=e61]:
+        - /url: download/Marvel2-daredevil-punisher-guardians-of-the-galaxy-marvel-s-future-will-the-marvel-universe-be-too-big-after-avengers-age-of-ultron.webp
+      - link "random_data.txt" [ref=e62]:
+        - /url: download/random_data.txt
+      - link "sample.pdf" [ref=e63]:
+        - /url: download/sample.pdf
+      - link "image (14).png" [ref=e64]:
+        - /url: download/image (14).png
+      - link "Surya_narayanan_resume_J_..pdf" [ref=e65]:
+        - /url: download/Surya_narayanan_resume_J_..pdf
+      - link "CodeReviewChecklist 1.xlsx" [ref=e66]:
+        - /url: download/CodeReviewChecklist 1.xlsx
+      - link "file_1774870389637.pdf" [ref=e67]:
+        - /url: download/file_1774870389637.pdf
+      - link "hello.json" [ref=e68]:
+        - /url: download/hello.json
+      - link "pedro.jpeg" [ref=e69]:
+        - /url: download/pedro.jpeg
+      - link "Script.sql" [ref=e70]:
+        - /url: download/Script.sql
+      - link "cat.jpg" [ref=e71]:
+        - /url: download/cat.jpg
+      - link "PRD 32 - Hotel listing booking.com.pdf" [ref=e72]:
+        - /url: download/PRD 32 - Hotel listing booking.com.pdf
+      - link "temp.txt" [ref=e73]:
+        - /url: download/temp.txt
+      - link "Mailchimp Test scenario.xlsx" [ref=e74]:
+        - /url: download/Mailchimp Test scenario.xlsx
+      - link "ipo_data.csv" [ref=e75]:
+        - /url: download/ipo_data.csv
+      - link "test_upload.txt" [ref=e76]:
+        - /url: download/test_upload.txt
+      - link "overlap.mp4" [ref=e77]:
+        - /url: download/overlap.mp4
+      - link "test-upload-1774849212107-1.txt" [ref=e78]:
+        - /url: download/test-upload-1774849212107-1.txt
+      - link "LambdaTest.txt" [ref=e79]:
+        - /url: download/LambdaTest.txt
+      - link "sample.txt" [ref=e80]:
+        - /url: download/sample.txt
+      - link "test_file.txt" [ref=e81]:
+        - /url: download/test_file.txt
+      - link "sample_media_file.png" [ref=e82]:
+        - /url: download/sample_media_file.png
+      - link "test-file.txt" [ref=e83]:
+        - /url: download/test-file.txt
+      - link "sample.text" [ref=e84]:
+        - /url: download/sample.text
+      - link "sre-upload.txt" [ref=e85]:
+        - /url: download/sre-upload.txt
+      - link "megadyneBladeHero.jpg" [ref=e86]:
+        - /url: download/megadyneBladeHero.jpg
+      - link "tmpxcq1tu88.txt" [ref=e87]:
+        - /url: download/tmpxcq1tu88.txt
+      - link "EBF46695-E938-4A01-934B-D4AE727084F2.png" [ref=e88]:
+        - /url: download/EBF46695-E938-4A01-934B-D4AE727084F2.png
+      - link "bleh 3.jpeg" [ref=e89]:
+        - /url: download/bleh 3.jpeg
+      - link "test-upload-1774847937386-1.txt" [ref=e90]:
+        - /url: download/test-upload-1774847937386-1.txt
+      - link "Screenshot (2).png" [ref=e91]:
+        - /url: download/Screenshot (2).png
+      - link "r2_upload_xmxtsag9.pdf" [ref=e92]:
+        - /url: download/r2_upload_xmxtsag9.pdf
+      - link "selenium-screenshot-7.png" [ref=e93]:
+        - /url: download/selenium-screenshot-7.png
+      - link "hello.txt" [ref=e94]:
+        - /url: download/hello.txt
+      - link "upload-test.txt" [ref=e95]:
+        - /url: download/upload-test.txt
+      - link "TextDoc.txt" [ref=e96]:
+        - /url: download/TextDoc.txt
+      - link "archivo-prueba.txt" [ref=e97]:
+        - /url: download/archivo-prueba.txt
+      - link "dummy-upload.txt" [ref=e98]:
+        - /url: download/dummy-upload.txt
+      - link "alerts.robot" [ref=e99]:
+        - /url: download/alerts.robot
+      - link "example.json" [ref=e100]:
+        - /url: download/example.json
+      - link "vijayphoto.JPG" [ref=e101]:
+        - /url: download/vijayphoto.JPG
+      - link "sample.png" [ref=e102]:
+        - /url: download/sample.png
+      - link "QA Question.txt" [ref=e103]:
+        - /url: download/QA Question.txt
+      - link "test-upload-2.txt" [ref=e104]:
+        - /url: download/test-upload-2.txt
+      - link "4.jpg" [ref=e105]:
+        - /url: download/4.jpg
+      - link "stt.txt" [ref=e106]:
+        - /url: download/stt.txt
+      - link "Testcase1_hubspot-crm.xlsx" [ref=e107]:
+        - /url: download/Testcase1_hubspot-crm.xlsx
+      - link "Selenium WebDriver Practical Questions.docx" [ref=e108]:
+        - /url: download/Selenium WebDriver Practical Questions.docx
+      - link "shaft.png" [ref=e109]:
+        - /url: download/shaft.png
+      - link "test-upload-1774857825941-1.txt" [ref=e110]:
+        - /url: download/test-upload-1774857825941-1.txt
+      - link "test-upload-1774863748955-1.txt" [ref=e111]:
+        - /url: download/test-upload-1774863748955-1.txt
+      - link "Yogesh_MetaCrafters.pdf" [ref=e112]:
+        - /url: download/Yogesh_MetaCrafters.pdf
+      - link "r2_upload_lqbc2hnf.pdf" [ref=e113]:
+        - /url: download/r2_upload_lqbc2hnf.pdf
+      - link "test-upload-1774866566538-1.txt" [ref=e114]:
+        - /url: download/test-upload-1774866566538-1.txt
+      - link "upload_file.png" [ref=e115]:
+        - /url: download/upload_file.png
+      - link "local.log" [ref=e116]:
+        - /url: download/local.log
+      - link "sample3.pdf" [ref=e117]:
+        - /url: download/sample3.pdf
+      - link "Screenshot 1.png" [ref=e118]:
+        - /url: download/Screenshot 1.png
+      - link "test.txt" [ref=e119]:
+        - /url: download/test.txt
+  - generic [ref=e121]:
+    - separator [ref=e122]
+    - generic [ref=e123]:
+      - text: Powered by
+      - link "Elemental Selenium" [ref=e124]:
+        - /url: http://elementalselenium.com/
+```
