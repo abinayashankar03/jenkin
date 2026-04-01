@@ -11,7 +11,7 @@ test("facebook login",async({page})=>{
     await page.waitForTimeout(5000)
 })
 
-test.only("automation site",async({page})=>{
+test("automation site",async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/")
 
     await page.getByPlaceholder("Enter Name").fill("playwright")

@@ -14,3 +14,52 @@ test("keyboard_action",async({page})=>{
 
     await page.pause()
 })
+
+test("hover",async({page})=>{
+    await page.goto("https://testautomationpractice.blogspot.com/")
+
+    await page.locator('//button[@class="dropbtn"]').hover()
+
+    await page.pause()
+})
+
+test("double click",async({page})=>{
+    await page.goto("https://testautomationpractice.blogspot.com/")
+
+    await page.locator('//input[@id="field1"]').fill("playwright")
+
+    await page.locator('//button[text()="Copy Text"]').dblclick()
+
+    await expect(page.locator('//input[@id="field2"]')).toHaveValue('playwright')
+
+    await page.pause()
+})
+
+test("rightclick",async({page})=>{
+    await page.goto("https://swisnl.github.io/jQuery-contextMenu/demo.html")
+
+    await page.locator('//span[@class="context-menu-one btn btn-neutral"]').click({button:"right"})
+
+    await page.pause()
+})
+
+test("scroll",async({page})=>{
+    await page.goto("https://testautomationpractice.blogspot.com/")
+
+    // await page.mouse.wheel(0,3000)
+
+    await page.locator('//div[@id="HTML8"]').scrollIntoViewIfNeeded()
+
+    await page.pause()
+})
+
+test("drag and drop",async({page})=>{
+    await page.goto("https://testautomationpractice.blogspot.com/")
+
+    const source=page.locator('//div[@id="draggable"]')
+    const target=page.locator('//div[@id="droppable"]')
+    
+    await source.dragTo(target)
+
+    await page.pause()
+})

@@ -76,7 +76,7 @@ test("multipleamazon_tabs1",async({page})=>{
     console.log(await page.title());
 })
 
-test.only("multipleamazon_tabs",async()=>{
+test("multipleamazon_tabs",async()=>{
     const browser=await chromium.launch()
     const context=await browser.newContext()
     const page=await context.newPage()

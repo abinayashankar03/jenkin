@@ -14,7 +14,7 @@ test("simple alert",async({page})=>{
     await page.locator('//button[@id="alertBtn"]').click()
 })
 
-test.only("confirmation alert",async({page})=>{
+test("confirmation alert",async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/")
 
     page.on('dialog',async dialog=>{

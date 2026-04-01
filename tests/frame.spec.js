@@ -23,7 +23,7 @@ test("iframe",async({page})=>{
     
 })
 
-test.only("nested frame",async({page})=>{
+test("nested frame",async({page})=>{
     await page.goto("https://ui.vision/demo/webtest/frames/")
 
     const frame1=await page.frame({url:"https://ui.vision/demo/webtest/frames/frame_3.html"})

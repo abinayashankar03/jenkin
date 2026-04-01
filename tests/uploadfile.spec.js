@@ -12,7 +12,7 @@ test("single file upload",async({page})=>{
     await page.pause()
 })
 
-test.only("file download",async({page})=>{
+test("file download",async({page})=>{
     await page.goto("https://the-internet.herokuapp.com/download")
 
     const [download]=await Promise.all([
